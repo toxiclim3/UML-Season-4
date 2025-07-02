@@ -60,15 +60,15 @@ public:
 	}
 };
 
-class HardDisk : public Device 
+class Storage : public Device 
 {
 public:
-	HardDisk(ReportImplementor* i) : Device(i) {}
+	Storage(ReportImplementor* i) : Device(i) {}
 	void ShowReport() override 
 	{
 		const std::string keys[] = { "Model", "Capacity", "Type" };
 		const std::string values[] = { "Samsung 970 EVO Plus", "1 TB", "SSD" };
-		impl->PrintReport("Hard Disk", keys, values, 3);
+		impl->PrintReport("Storage", keys, values, 3);
 	}
 };
 
@@ -88,7 +88,7 @@ int main()
 {
 	ConsoleReport console;
 	Device* device = nullptr;
-	std::cout << "Select device: \n1. GPU\n2. CPU\n3. Hard Disk\n4. RAM\n";
+	std::cout << "Select device: \n1.GPU\n2.CPU\n3.Storage drive\n4.RAM\n";
 	int choice;
 	std::cin >> choice;
 	switch (choice) 
@@ -105,7 +105,7 @@ int main()
 			}
 			case 3:
 			{ 
-				device = new HardDisk(&console); 
+				device = new Storage(&console); 
 				break;
 			}
 			case 4:
