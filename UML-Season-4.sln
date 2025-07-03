@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FacadePC", "FacadePC\Facade
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StrategyNavigator", "StrategyNavigator\StrategyNavigator.vcxproj", "{293C4D25-B3A7-4A4C-9633-00575EA0E9BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuilderCar", "BuilderCar\BuilderCar.vcxproj", "{51BC9962-D949-4F99-B708-B825F35259BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{293C4D25-B3A7-4A4C-9633-00575EA0E9BE}.Release|x64.Build.0 = Release|x64
 		{293C4D25-B3A7-4A4C-9633-00575EA0E9BE}.Release|x86.ActiveCfg = Release|Win32
 		{293C4D25-B3A7-4A4C-9633-00575EA0E9BE}.Release|x86.Build.0 = Release|Win32
+		{51BC9962-D949-4F99-B708-B825F35259BC}.Debug|x64.ActiveCfg = Debug|x64
+		{51BC9962-D949-4F99-B708-B825F35259BC}.Debug|x64.Build.0 = Debug|x64
+		{51BC9962-D949-4F99-B708-B825F35259BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{51BC9962-D949-4F99-B708-B825F35259BC}.Debug|x86.Build.0 = Debug|Win32
+		{51BC9962-D949-4F99-B708-B825F35259BC}.Release|x64.ActiveCfg = Release|x64
+		{51BC9962-D949-4F99-B708-B825F35259BC}.Release|x64.Build.0 = Release|x64
+		{51BC9962-D949-4F99-B708-B825F35259BC}.Release|x86.ActiveCfg = Release|Win32
+		{51BC9962-D949-4F99-B708-B825F35259BC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
